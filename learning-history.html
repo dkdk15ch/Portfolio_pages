@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プログラミング学習歴</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="toggle-btn" class="toggle-btn" aria-label="目次を開閉" aria-expanded="false">☰</button>
+
+    <nav id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h2>目次</h2>
+        </div>
+        <p>※リンクとして使用できます。</p>
+        <ul>
+            <li><a href="#year-one">1年次</a></li>
+            <li><a href="#year-two">2年次</a></li>
+            <li><a href="#year-three">3年次</a></li>
+            <li><a href="#future-plan">今後の予定</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <h1>プログラミング学習歴</h1>
+        <a href="index.html">ポートフォリオトップへ戻る</a>
+        <h3 id="ソースコード">GitHubはこちら↓</h3>
+          <a href="https://github.com/dkdk15ch/Portfolio_Sub.git" onclick="return confirm('GitHubリポジトリへ移動しますか？');">
+          GitHub_Sub
+          </a>
+
+        <section class="learning-year" id="year-one">
+            <h2>1年次</h2>
+
+            <section class="learning-history-section">
+                <h3>学習開始</h3>
+                <p>未経験（授業で触れたぐらい）</p>
+                <p>入学後、1年時にはC言語とDxlibを学習しました。</p>
+                <p>2年時は、C++、Unreal Engineを学習しました。</p>
+                <p>3年時は、DirectX 12を学習しました。<br>また、卒業まではDirectX 12で学び残した部分を学習していきます。</p>
+                
+                
+            </section>
+
+            <section class="learning-history-section">
+                <h3>進級制作：くるくるめくる</h3>
+                <ul>
+                    <li>制作期間：5か月</li>
+                    <li>制作人数：個人製作</li>
+                    <li>環境：Dxlib / C言語</li>
+                </ul>
+                <div class="history-media-row">
+                    <video class="history-media-small" src="Movies/KuruKuru.mp4" controls preload="metadata" playsinline></video>
+                    <div class="history-media-description">
+                        <p>テキストベースのコマンドバトルです。本を捲っていく操作感と、たくさんのページを開いて呪文を埋めていくことで強くなる要素を制作しました。</p>
+                        <p>学べた部分：C言語基礎、ファイル分け</p>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+        <section class="learning-year" id="year-two">
+            <h2>2年次</h2>
+            <section class="learning-history-section">
+                <h3>Roots</h3>
+                <ul>
+                    <li>開発期間：3か月（未完）</li>
+                    <li>制作人数：個人製作</li>
+                    <li>環境：Dxlib / C++</li>
+                </ul>
+                <div class="history-media-row">
+                    <img class="history-image history-media-small" src="Images/Roots.png" alt="Rootsの画面">
+                    <div class="history-media-description">
+                        <p>C++学習を目的に作成した、根を伸ばして木を成長させていくゲームです。</p>
+                        <p>学べた部分：</p>
+                        <ul>
+                            <li>クラス、オブジェクト指向</li>
+                            <li>リンク構造（多分岐）</li>
+                            <li>CSVファイル読み込み</li>
+                            <li>STL（配列、スマートポインタ、文字列など）</li>
+                            <li>デザインパターン（インタフェース、ファクトリー）</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="learning-year" id="year-three">
+            <h2>3年次</h2>
+            <section class="learning-history-section">
+                <h3>Unreal Engine学習</h3>
+                <ul>
+                    <li>期間：半年</li>
+                    <li>制作人数：個人製作</li>
+                    <li>環境：Unreal Engine 5.6</li>
+                    <li>書籍、サンプル改造、UEプチコン参加</li>
+                </ul>
+                <div class="history-media-row">
+                    <video class="history-media-small" src="Movies/PuchCon.mp4" controls preload="metadata" playsinline></video>
+                    <div class="history-media-description">
+                        <p>学べた部分：Blueprint</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="learning-history-section">
+                <h3>C++を使った会話システム</h3>
+                <ul>
+                    <li>期間：1か月</li>
+                    <li>制作人数：個人製作</li>
+                    <li>環境：Unreal Engine 5.6/C++</li>
+                </ul>
+                <div class="history-media-row">
+                    <video class="history-media-small" src="Movies/UECpp.mp4" controls preload="metadata" playsinline></video>
+                    <div class="history-media-description">
+                        <p>UEC++の学習として、会話対象の上にウィジェットを表示し、イベントを実行するシステムを制作しました。</p>
+                        <p>データテーブルからのテキスト描画、デリゲート、UClass・UInterface、UFUNCTION(BlueprintImplementableEvent)を学びました。</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="learning-history-section">
+                <h3>DirectX12：格闘ゲームのコマンド入力</h3>
+                <ul>
+                    <li>期間：1週間</li>
+                    <li>制作人数：個人製作</li>
+                    <li>環境：DirectX12</li>
+                </ul>
+                <div class="history-media-row">
+                    <video class="history-media-small" src="Movies/FG.mp4" controls preload="metadata" playsinline></video>
+                    <div class="history-media-description">
+                        <p>授業の自由課題として、波動拳のコマンド入力と入力履歴を作成しました。簡易入力でも受け付けるように実装しました。</p>
+                        <p>学べた部分：ビット演算子</p>
+                    </div>
+                </div>
+
+            <section class="learning-history-section">
+                <h4>授業部分を除いて、該当部分のみ抜粋</h4>
+                <div class="code-example">
+                <pre><code>
+// .h
+    enum class TK
+	{
+		K5 = 0,
+		K1,
+		K2,
+		K3,
+		K4,
+		K6,
+		K7,
+		K8,
+		K9,
+	};
+
+	//	ログで格納する構造体
+	struct KeyLog
+	{
+		TK		KeyDir;
+		int		PressedFrames = 0;
+		uint8_t InputBits;
+
+		KeyLog(TK dir, int frames, uint8_t key) 
+			: KeyDir(dir)
+			, PressedFrames(frames)
+			, InputBits(key){}
+	};
+
+// cpp
+namespace {
+	//	入力
+	constexpr uint8_t InputLeft		= 1u << 0;
+	constexpr uint8_t InputRight	= 1u << 1;
+	constexpr uint8_t InputUp		= 1u << 2;
+	constexpr uint8_t InputDown		= 1u << 3;
+	constexpr uint8_t LightP		= 1u << 4;
+	constexpr uint8_t HardP			= 1u << 5;
+	constexpr uint8_t LightK		= 1u << 6;
+	constexpr uint8_t HardK			= 1u << 7;
+	constexpr uint8_t AnyPunch		= LightP | HardP;
+	constexpr uint8_t AttckMask		= LightP | HardP | LightK | HardK;
+	constexpr uint8_t InputDirMask	= InputLeft | InputRight | InputUp | InputDown;
+	
+	//	パンチ・キックボタン取得マクロ
+	#define GET_LIGHT_PUNCH_PRESSED m_keyboardState.U
+	#define GET_HARD_PUNCH_PRESSED	m_keyboardState.J
+	#define GET_LIGHT_KICK_PRESSED	m_keyboardState.I
+	#define GET_HARD_KICK_PRESSED	m_keyboardState.K
+
+	//	hadou
+	bool bInScreenHadou = false;
+	const Vector2 HadouStartPos = Vector2(170.0f, 100.0f);
+	Vector2 HadouPos = Vector2(170.0f, 100.0f);
+	float screenWidth = 800.0f;
+
+}//	namespace
+
+/**
+ * @brief			コマンドの成否を判定
+ * 
+ * @param command	判定するコマンド 
+ * @return true		コマンド成功
+ * @return false	コマンド失敗
+ */
+bool Game::CheckCommandComplete(const std::vector<CommandStep>& command, uint8_t bottom)
+{
+	//	早期終了
+	if (m_prevInputBits == m_CurrentInputBits) { return false; }
+	if (!(m_CurrentInputBits & bottom)) { return false; }
+
+	int remainingFrames = 0.0f;						//	残りフレーム
+	auto itLog			= m_KeyLog.rbegin();		//	ログを逆順で取り出すイテレータ
+	TK prevDir = TK::K5;
+	bool isFirst = true;
+	for (auto itCmd	= command.rbegin(); itCmd != command.rend(); ++itCmd)
+	{
+		//	不可能なコマンド
+		if (itCmd->LeniencyFrames <= 0)
+		{ return false;	}
+
+		remainingFrames = itCmd->LeniencyFrames;
+		
+		while (remainingFrames > 0)
+		{
+			//	範囲外チェック
+			if (itLog == m_KeyLog.rend())
+			{ return false;	}
+
+			//	猶予フレームを超えていたら失敗を返す
+			if (itLog->PressedFrames > remainingFrames)
+			{ return false;	}
+
+			//	猶予内だったらコマンドチェック
+			//	コマンドがあっていれば、Whileを抜けて次のコマンドへ
+			if (CheckCommandDir(itLog->InputBits, itCmd->Direction))
+			{
+				//	同じキーいれっぱを検知
+				if (itLog->KeyDir != prevDir || isFirst)
+				{
+					isFirst = false;
+					prevDir = itLog->KeyDir;
+					++itLog;
+					break;	
+				}
+			}
+
+			remainingFrames -= itLog->PressedFrames;
+			if (remainingFrames <= 0)
+			{ return false;	}
+
+			//	一つ前のログへ
+			++itLog;
+		}
+
+	}
+
+	//	コマンド成功
+	return true;
+}
+
+
+/**
+ * @brief			入力にコマンドの方向が入っているかをチェック
+ *					簡易入力できるように、入力方向性分があるかで判断する
+ * 
+ * @param input		入力 
+ * @param cmdDir	コマンド方向 
+ * @return 
+ */
+bool Game::CheckCommandDir(const uint8_t& input, TK cmdDir)
+{
+	//	ニュートラル
+	if (cmdDir == TK::K5)
+	{
+		if (input == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
+	const uint8_t cmdDirBitmask = GetInputBitMaskFromTK(cmdDir);
+	//	斜め方向は、逆方向性分が入っていなければOK
+	const uint8_t notCmdDir = static_cast<uint8_t>(~cmdDirBitmask);
+	const uint8_t inputDir	= input & InputDirMask;
+
+	//	上下左右は、そのビットが有効かチェック
+	switch (cmdDir)
+	{
+		case TK::K2:
+		case TK::K4:
+		case TK::K6:
+		case TK::K8:
+		{
+			if (inputDir & cmdDirBitmask)
+			{
+				return true;
+			}
+			return false;
+		}
+		case TK::K1:
+		case TK::K3:
+		case TK::K7:
+		case TK::K9:
+		{
+			//	XORで一致がなければ0x11111111でOK
+			if ((inputDir ^ notCmdDir) == 0xFF)
+			{
+				return true;
+			}
+			return false;
+		}
+	}
+	return false;
+}
+
+
+}</code></pre>
+                </div>
+            </section>
+            </section>
+
+            <section class="learning-history-section">
+                <h3>DirectX12学習</h3>
+                <ul>
+                    <li>期間：4か月</li>
+                    <li>制作人数：個人製作</li>
+                </ul>
+                <p>授業で行われなかった、パイプラインの生成から描画（スキニングなし）までを学習しました。</p>
+                <p>DirectX3D 実践ガイドを中心に学習しました。メイン制作物へ続く学習を進めていきます。</p>
+            </section>
+
+            <section class="learning-history-section">
+                <h3>PrideBattle</h3>
+                <ul>
+                    <li>制作期間：5か月</li>
+                    <li>制作人数：個人製作</li>
+                    <li>環境：Unreal Engine 5.6/C++</li>
+                </ul>
+                <ul>
+                    <li>Blueprint：StateTreeで敵AI、ゲーム遷移、UI、エフェクト、敵の移動、収集物</li>
+                    <li>C++：外部ファイルの読み込み、経路探索</li>
+                </ul>
+                <div class="history-media-row">
+                    <video class="history-media-large" src="Movies/PrideBattle.mp4" controls preload="metadata" playsinline></video>
+
+                </div>
+                <div class="history-media-row">
+                    <img class="history-image history-media-large" src="Images/PrideBattle.png" alt="PrideBattleの画面">
+                </div>
+            </section>
+
+            <p>メイン成果物の詳細は、<a href="index.html#メイン">メインページ</a>で紹介しています。</p>
+        </section>
+
+        <section class="learning-year" id="future-plan">
+            <h2>今後の予定（卒業制作企画書）</h2>
+            <div class="canva-embed">
+                <iframe
+                    loading="lazy"
+                    src="https://www.canva.com/design/DAHY-1bWcWI/SQ8v_MUSdMKvTXaBcKH3KQ/view?embed"
+                    allowfullscreen
+                    allow="fullscreen">
+                </iframe>
+            </div>
+        </section>
+
+        <a href="index.html">ポートフォリオトップへ戻る</a>
+    </main>
+
+    <script>
+      const sidebar = document.getElementById('sidebar');
+      const toggleBtn = document.getElementById('toggle-btn');
+
+      toggleBtn.addEventListener('click', () => {
+        const isOpen = sidebar.classList.toggle('open');
+        document.body.classList.toggle('sidebar-open', isOpen);
+        toggleBtn.setAttribute('aria-expanded', String(isOpen));
+      });
+    </script>
+</body>
+</html>
